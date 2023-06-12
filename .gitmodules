@@ -1,0 +1,6 @@
+[submodule "build/linenoise"]
+	path = build/linenoise
+	url = https://github.com/antirez/linenoise.git
+[submodule "build/libelfin"]
+	path = build/libelfin
+	url = https://github.com/aclements/libelfin.git

@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Custom Debugger",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "C:/Users/Mamao/LinuxDebugger/LinuxDebugger/source code/hello",//debugee file directory
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "C:/Users/Mamao/LinuxDebugger",//root directory
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb"
+        }
+    ]
+}
