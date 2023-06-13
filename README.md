@@ -16,15 +16,21 @@ Run the compiled executable:
 
 
 Once the debugger is running, you can use the following commands:
-cont or continue: Continue the program execution.
-break <address>: Set a breakpoint at the specified address (in hexadecimal format) or function name.
-break <file>:<line>: Set a breakpoint at the specified source file and line number.
-step: Step into the next line of code.
-quit or exit: Quit the debugger.
+
+1.cont or continue: Continue the program execution.
+
+2.break: Set a breakpoint at the specified address (in hexadecimal format) or function name.
+  
+3.break: Set a breakpoint at the specified source file and line number.
+  
+4.step: Step into the next line of code.
+  
+5.quit or exit: Quit the debugger.
+  
 You can also add additional commands or modify the existing ones according to your requirements.
 
 Use the provided commands to debug your program. The debugger will provide information about breakpoints, line numbers, source code, register values, and more.
 
 Remember to modify the code according to your specific needs, such as adding support for additional commands or extending the functionality of the debugger.
 
-Note: Make sure you have the necessary dependencies installed and linked correctly before compiling the code.
+Note: Make sure you have the necessary dependencies installed and linked correctly before compiling the code such as CMake, libelfin and libelfin.
